@@ -11813,7 +11813,8 @@ blockquote {
     }
     .top-banner-section {
         padding-top: 150px;
-        padding-bottom: 75px
+        padding-bottom: 75px;
+        border-top:10%;
     }
     .footer {
         padding-bottom: 40px
@@ -14637,6 +14638,6 @@ blockquote {
 
   @media only screen and (max-device-width: 600px) {
     .gtitle{
-        padding-top: 5%;
+        padding-top: 15%;
     }
   }
