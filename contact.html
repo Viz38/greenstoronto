@@ -31,6 +31,16 @@
             'anonymize_ip': true
         });
     </script>
+    <script>
+        function showDivC() {
+            document.getElementById('canada').style.display = "none";
+            document.getElementById('kerala').style.display = "block";
+        }
+        function showDivK() {
+            document.getElementById('canada').style.display = "block";
+            document.getElementById('kerala').style.display = "none";
+        }
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=62cbced0987470001990b421&product=sop' async='async'></script>
 </head>
@@ -39,7 +49,7 @@
     <div data-animation="over-left" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-main w-nav">
         <div class="wide-container central-copy w-container"><a href="/" aria-current="page" class="brand-logo w-nav-brand w--current"><img src="./H-logo.png" loading="lazy" alt="Logo" class="logo"/></a>
             <nav role="navigation"
-                class="nav-menu w-nav-menu"><a href="#" class="brand-logo inner w-nav-brand"><img src="./H-logo.png" loading="lazy" alt="Logo" class="logo inner"/></a>
+                class="nav-menu w-nav-menu"><a href="./" class="brand-logo inner w-nav-brand"><img src="./H-logo.png" loading="lazy" alt="Logo" class="logo inner"/></a>
                 <div class="menu-button inner w-nav-button"><img src="assets/img/cross.png" loading="lazy" alt="Close" class="cross" />
                     <div class="none w-icon-nav-menu"></div>
                 </div>
@@ -74,17 +84,18 @@
     <div class="container horizontal w-container">
         <div data-w-id="fcf614f1-8721-1215-59c0-3faa981ffe5c" class="gray-text-block white-text">
             <p class="large light">
-                <strong><em class="italic-text">Canada Office</em></strong><br>
+                <strong><em class="italic-text">Canada Branch Office</em></strong><br>
                 2565 Steels Av East, Unit #6, <br>
                 Brampton, ON, Canada - L6T 4L6
             </p>
         </div>
         <div data-w-id="65b15a22-5314-472f-a7fa-539d86d7db8f" class="green-text-block white-text">
             <p class="large light">
-                <strong><em class="italic-text">Kerala Office</em></strong><br>
+                <strong><em class="italic-text">Kerala Branch Office</em></strong><br>
                 Arikath Building,
                 Changaramkulam, Nannammukku P.O,<br>
                 Near Famouse Bakery Highway,<br>
+                Kerala, India
                 Pin : 679575
             </p>
         </div>
@@ -100,12 +111,26 @@
         </div>
     </center>
 
+    <center class="Msection" id="canada">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.7460829311663!2d-79.63894468450427!3d43.59100497912344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3c23546aaaab%3A0x59edea88e80b0e4f!2sGreens%20Toronto!5e0!3m2!1sen!2sin!4v1670490538222!5m2!1sen!2sin" width="80%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+        <input class="w-button submit-button" type="button" name="answer" value="Indian branch" onclick="showDivC()" />
+    </center>
+
+    <center class="Msection" id="kerala" style="display:none;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250878.50206026368!2d75.7488979328125!3d10.73628719999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7bedb15555555%3A0x678abcb7dd18998d!2sGreens%20Toronto!5e0!3m2!1sen!2sin!4v1670491302259!5m2!1sen!2sin" width="80%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+        <input class="w-button submit-button" type="button" name="answer" value="Canadian branch" onclick="showDivK()" />
+    </center>
+
     <div class="section contact wf-section">
         <img src="assets/img/rectangle_337.png" loading="lazy" alt="Decorative" class="image-130" />
         <div class="container w-container">
             <div class="form-block-2 w-form">
                 <form id="wf-form-Contact-Form-Submission" name="wf-form-Contact-Form-Submission" data-name="Contact Form Submission" redirect="/thank-you" data-redirect="/thank-you" method="get">
                     <div class="contact-form-grid">
+                        <h3 style="text-align: center;">Send us a message and we'll get back to you</h3>
+                        <br>
                         <div id="w-node-b2eaaf75-4679-3af5-419a-2c7ea503b6ba-d95fbe99">
                             <label id="contact-first-name" for="Name" class="contact-heading"><strong>Name*</strong></label>
                             <input type="text" class="text-field w-input" maxlength="256" name="Name" data-name="Name" placeholder="" id="Name" required="" />
