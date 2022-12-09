@@ -6186,7 +6186,6 @@ blockquote {
     box-shadow: 0 0 26px 7px rgba(0, 0, 0, .1)
 }
 .pop-up-image {
-    margin-bottom: 20px;
     -o-object-fit: cover;
     object-fit: cover
 }
@@ -11373,7 +11372,7 @@ blockquote {
         max-width: none;
         margin-right: 20px;
         margin-left: 20px;
-        padding: 0 0 20px;
+        padding: 0 0 0 0px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
