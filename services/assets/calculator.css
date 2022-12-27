@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,800,900);
+/* BOX SIZING */
+#howLikely, .custom-checkbox > .box, .custom-checkbox, .question input, .results,
+.formQuestions, .mortgageCalculator {
+  box-sizing: border-box;
+}
+
+.mortgageCalculator {
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #454545;
+}
+
+.mortgageCalculator>h1 {
+  font-size: 1.75em;
+  font-weight: 800;
+  padding: 20px;
+}
+
+.mortgageCalculator>h2 {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.mortgageCalculator>h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.mortgageCalculator>strong {
+  font-weight: bold;
+}
+
+.mortgageCalculator>small {
+  font-size: 0.75em;
+}
+
+.mortgageCalculator>input {
+  font-family: Raleway;
+  font-size: 1em;
+}
+
+.mortgageCalculator {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.results,
+.formQuestions {
+  width: 50%;
+  padding: 20px;
+  float: left;
+  padding-bottom: 100px;
+}
+
+.results {
+  display: none;
+  background: #f1f1f1;
+}
+
+.question {
+  margin: 20px 0;
+  clear: both;
+}
+.question label {
+  display: block;
+}
+.question.emptyInput input {
+  border-color: #e43c3c;
+}
+.question.emptyInput label {
+  color: #e43c3c;
+}
+.question input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+}
+.question input[type=radio] {
+  position: absolute;
+  left: -9999px;
+}
+.question #advancedQuestions {
+  font-size: 0.75em;
+  background: #454545;
+  color: #fff;
+  padding: 0 12px 1px;
+  height: 22px;
+  line-height: 22px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+.question.advancedQuestions {
+  display: none;
+}
+
+#applicantTwo {
+  display: none;
+  border-top: 1px solid #d9d9d9;
+  clear: both;
+}
+
+.custom-checkbox {
+  position: relative;
+  display: inline-block;
+  width: calc(50% - 10px);
+  float: left;
+  margin-top: 10px;
+}
+.custom-checkbox.first {
+  margin-right: 20px;
+}
+.custom-checkbox > input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  outline: none;
+  border: none;
+}
+.custom-checkbox > .box {
+  background-color: #ffffff;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  cursor: pointer;
+  float: left;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* CHECKED STYLES */
+.custom-checkbox > input:checked ~ .box,
+.custom-checkbox.checked > .box {
+  background: #d9d9d9;
+}
+
+.btn {
+  background: #aacf18;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+}
+.btn:hover {
+  background: #454545;
+}
+
+.errorMessage {
+  color: #e43c3c;
+  font-weight: bold;
+  display: none;
+  margin: -10px 0 10px;
+}
+.errorMessage.show {
+  display: block;
+}
+
+#howLikely {
+  margin: 20px 0;
+  width: 100%;
+  padding: 20px;
+  clear: both;
+}
+#howLikely.red {
+  background: #e43c3c;
+}
+#howLikely.amber {
+  background: #e4be3c;
+}
+#howLikely.green {
+  background: #aacf18;
+}
+
+.answer {
+  margin: 20px 0;
+  clear: both;
+}
+.answer #mortgageAmount {
+  display: block;
+  margin-bottom: 10px;
+}
+.answer .half {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin-bottom: 20px;
+}
+.answer .half strong {
+  display: block;
+}
+
+#LTVChart {
+  margin: 0 auto;
+}
+
+.callToAction {
+  padding: 10px;
+  margin: 20px 0 10px;
+  border: 1px solid #d9d9d9;
+  border-left: 0 none;
+  border-right: 0 none;
+}
+.callToAction a {
+  font-weight: bold;
+  color: #e43c3c;
+}
+
+.salaryInfo {
+  width: 50%;
+  float: left;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+.salaryInfo strong {
+  display: block;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
