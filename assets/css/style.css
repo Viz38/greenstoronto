@@ -12864,7 +12864,8 @@ blockquote {
     .core-value-wrapper {
         width: auto;
         height: auto;
-        max-width: none
+        max-width: none;
+        padding-left: 5%;
     }
     .core-value-icon {
         margin-bottom: 8px
