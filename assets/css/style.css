@@ -2072,7 +2072,7 @@ em {
 blockquote {
     margin: 0 0 10px;
     padding: 10px 20px;
-    border-left: 5px solid #81B73B;
+    border-left: 5px solid #1FC63A;
     color: #41535d;
     font-size: 20px;
     line-height: 1.2em
@@ -2108,7 +2108,7 @@ blockquote {
     text-transform: uppercase
 }
 .nav-link:hover {
-    color: #81B73B
+    color: #1FC63A
 }
 .nav-link.w--current {
     font-family: 'Kievitoffcpro medi', sans-serif;
@@ -2151,7 +2151,7 @@ blockquote {
     text-transform: uppercase
 }
 .dropdown-link:hover {
-    color: #81B73B
+    color: #1FC63A
 }
 .dropdown-link.w--current {
     font-family: 'Kievitoffcpro medi', sans-serif;
@@ -2180,7 +2180,7 @@ blockquote {
     bottom: 1px;
     display: inline;
     font-family: 'Font awesome 6 free solid 900', sans-serif;
-    color: #81B73B;
+    color: #1FC63A;
     line-height: .3em
 }
 .fa-icon.arrow {
@@ -2195,7 +2195,7 @@ blockquote {
 }
 .fa-icon.arrow:active,
 .fa-icon.dark-green:active {
-    color: #184f1f
+    color: #1FC63A
 }
 .fa-icon.star {
     font-size: 14px
@@ -2209,7 +2209,7 @@ blockquote {
 .fa-icon.green-right {
     padding-left: 5px;
     font-family: 'Font awesome 6 free solid 900', sans-serif;
-    color: #81B73B;
+    color: #1FC63A;
     line-height: .3em
 }
 .fa-icon.blog {
@@ -2257,7 +2257,7 @@ blockquote {
     margin-bottom: 0;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #81B73B;
+    background-color: #1FC63A;
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     transform: translate(0, 0)
@@ -2307,7 +2307,7 @@ blockquote {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    background-color: #81B73B
+    background-color: #1FC63A
 }
 .section.pale-yellow-copy {
     position: relative;
@@ -2462,7 +2462,7 @@ blockquote {
     max-width: 1122px;
     padding-top: 70px;
     padding-bottom: 70px;
-    background-color: #81B73B;
+    background-color: #1FC63A;
     color: #fff;
     text-align: center
 }
@@ -2500,12 +2500,12 @@ blockquote {
     width: 215px;
     height: 60px;
     padding: 15px 32px 10px;
-    border: 2px solid #81B73B;
+    border: 2px solid #1FC63A;
     border-radius: 50px;
     background-color: transparent;
     -webkit-transition: .3s;
     transition: .3s;
-    color: #81B73B;
+    color: #1FC63A;
     font-size: 22px;
     line-height: 1.3em;
     font-weight: 900;
@@ -2513,8 +2513,8 @@ blockquote {
     text-transform: uppercase
 }
 .light-button:hover {
-    border-color: #81B73B;
-    background-color: #81B73B;
+    border-color: #1FC63A;
+    background-color: #1FC63A;
     color: #fff
 }
 .light-button.wide {
@@ -2608,7 +2608,7 @@ blockquote {
     white-space: nowrap
 }
 .footer-link:hover {
-    color: #81B73B
+    color: #1FC63A
 }
 .footer-link.fa-social-media {
     font-family: 'Fa brands 400', sans-serif;
@@ -2624,9 +2624,9 @@ blockquote {
     width: 215px;
     height: 60px;
     padding: 15px 32px 10px;
-    border: 2px solid #81B73B;
+    border: 2px solid #1FC63A;
     border-radius: 50px;
-    background-color: #81B73B;
+    background-color: #1FC63A;
     -webkit-transition: opacity .3s;
     transition: opacity .3s;
     font-size: 22px;
@@ -2645,7 +2645,7 @@ blockquote {
     width: 260px;
     padding-right: 22px;
     padding-left: 22px;
-    border: 2px solid #81B73B
+    border: 2px solid #1FC63A
 }
 .primary-button.width-150-px {
     width: 150px
@@ -2740,13 +2740,13 @@ blockquote {
 .green-link {
     -webkit-transition: opacity .3s;
     transition: opacity .3s;
-    color: #81B73B;
+    color: #1FC63A;
     font-weight: 700;
     text-decoration: underline
 }
 .green-link:hover {
     opacity: .75;
-    color: #81B73B
+    color: #1FC63A
 }
 .footer-links-wrapper {
     padding-right: 37px
@@ -2921,15 +2921,15 @@ blockquote {
     display: inline-block
 }
 .counterup.green {
-    color: #81B73B
+    color: #1FC63A
 }
 .counterup.wide-greed {
     position: relative;
     display: inline-block;
-    color: #81B73B
+    color: #1FC63A
 }
 .counterup.green-1000 {
-    color: #81B73B
+    color: #1FC63A
 }
 .counterup.wide-companies {
     position: relative;
@@ -2964,7 +2964,7 @@ blockquote {
     font-weight: 700
 }
 .counter-signs.green {
-    color: #81B73B
+    color: #1FC63A
 }
 .bachground-figure {
     position: absolute;
@@ -3039,7 +3039,7 @@ blockquote {
 .contact-button {
     padding: 13px 32px 10px;
     border-radius: 50px;
-    background-color: #81B73B;
+    background-color: #1FC63A;
     -webkit-transition: .3s;
     transition: .3s;
     color: #fff;
@@ -3735,7 +3735,7 @@ blockquote {
     margin-top: -40px;
     margin-left: -55px;
     padding: 60px 50px 60px 70px;
-    background-color: #81B73B
+    background-color: #1FC63A
 }
 .centured-heading {
     text-align: center
@@ -4310,7 +4310,7 @@ blockquote {
     -webkit-transition: opacity .3s;
     transition: opacity .3s;
     font-family: 'Fa brands 400', sans-serif;
-    color: #81B73B;
+    color: #1FC63A;
     font-size: 24px;
     line-height: 1em;
     text-align: right
@@ -4400,7 +4400,7 @@ blockquote {
     height: 1px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #184f1f
+    background-color: #1FC63A
 }
 .image-47 {
     position: absolute;
@@ -4547,7 +4547,7 @@ blockquote {
     -webkit-transition: opacity .3s;
     transition: opacity .3s;
     font-family: 'Font awesome 6 free solid 900', sans-serif;
-    color: #81B73B;
+    color: #1FC63A;
     font-size: 28px;
     line-height: 39.2px;
     font-weight: 300;
@@ -4614,7 +4614,7 @@ blockquote {
     transition: .3s
 }
 .time-tab-link:hover {
-    color: #81B73B
+    color: #1FC63A
 }
 .time-tab-link.w--current {
     display: -webkit-box;
@@ -4762,7 +4762,7 @@ blockquote {
 }
 .radio-button-2.w--redirected-checked {
     border: 0 transparent;
-    background-color: #81B73B;
+    background-color: #1FC63A;
     opacity: 1
 }
 .radio-button-2.w--redirected-focus {
@@ -5534,14 +5534,14 @@ blockquote {
     -ms-flex-align: center;
     align-items: center;
     font-family: 'Font awesome 6 free solid 900', sans-serif;
-    color: #81B73B;
+    color: #1FC63A;
     font-size: 34px
 }
 .read-more {
     width: 100%;
     max-width: 532px;
     margin-left: 40px;
-    color: #81B73B;
+    color: #1FC63A;
     font-size: 26px;
     line-height: 1.3em;
     font-weight: 400;
@@ -5550,7 +5550,7 @@ blockquote {
 }
 .read-more:hover {
     opacity: .75;
-    color: #81B73B
+    color: #1FC63A
 }
 .join-button-wrapper {
     margin-top: 70px
@@ -5881,13 +5881,13 @@ blockquote {
     font-weight: 300
 }
 .text-field:focus {
-    border-color: #81B73B
+    border-color: #1FC63A
 }
 .text-field:focus-visible {
-    border: 1px solid #81B73B
+    border: 1px solid #1FC63A
 }
 .text-field[data-wf-focus-visible] {
-    border: 1px solid #81B73B
+    border: 1px solid #1FC63A
 }
 .text-field.high {
     max-width: 100%;
@@ -5905,7 +5905,7 @@ blockquote {
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 50px;
-    background-color: #81B73B;
+    background-color: #1FC63A;
     font-size: 22px;
     line-height: 1.2em;
     font-weight: 700;
@@ -5935,11 +5935,11 @@ blockquote {
     border-color: #e8ded2
 }
 .checkbox.w--redirected-checked {
-    border-color: #81B73B;
-    background-color: #81B73B
+    border-color: #1FC63A;
+    background-color: #1FC63A
 }
 .checkbox.w--redirected-focus {
-    box-shadow: 0 0 3px 1px #81B73B
+    box-shadow: 0 0 3px 1px #1FC63A
 }
 .checkbox-label {
     margin-left: 10px;
@@ -5989,13 +5989,13 @@ blockquote {
     background-color: transparent;
     -webkit-transition: .2s;
     transition: .2s;
-    color: #81B73B;
+    color: #1FC63A;
     font-weight: 700
 }
 .green-div {
     width: 0%;
     height: 2px;
-    background-color: #81B73B
+    background-color: #1FC63A
 }
 .news-tabs-name {
     font-size: 22px;
@@ -6006,13 +6006,13 @@ blockquote {
     white-space: nowrap
 }
 .news-tabs-name:hover {
-    border-bottom: 2px solid #81B73B;
-    color: #81B73B
+    border-bottom: 2px solid #1FC63A;
+    color: #1FC63A
 }
 .news-tabs-name.current,
 .news-tabs-name.w--current {
-    border-bottom: 2px solid #81B73B;
-    color: #81B73B;
+    border-bottom: 2px solid #1FC63A;
+    color: #1FC63A;
     font-weight: 700
 }
 .news-collection {
@@ -6149,7 +6149,7 @@ blockquote {
     width: 6px;
     height: 6px;
     border-radius: 20px;
-    background-color: #81B73B
+    background-color: #1FC63A
 }
 .team-members-section-wrapper {
     margin-bottom: 55px
@@ -6299,7 +6299,7 @@ blockquote {
     margin-right: -50px;
     margin-left: -50px;
     border-radius: 20px;
-    background-color: #81B73B
+    background-color: #1FC63A
 }
 .green-line-grid.wide {
     margin-right: -65px;
@@ -6388,10 +6388,10 @@ blockquote {
 .text-link {
     -webkit-transition: .3s;
     transition: .3s;
-    color: #81B73B
+    color: #1FC63A
 }
 .text-link:hover {
-    border-bottom: 1px solid #81B73B;
+    border-bottom: 1px solid #1FC63A;
     opacity: .7
 }
 .checkbox-field-copy {
@@ -6497,7 +6497,7 @@ blockquote {
     flex: 0 auto;
     border-radius: 100px;
     background-color: #fffbf5;
-    color: #81B73B;
+    color: #1FC63A;
     font-size: 22px;
     line-height: 30.8px;
     font-weight: 700
@@ -6548,7 +6548,7 @@ blockquote {
     padding-right: 32px;
     padding-left: 32px;
     border-radius: 50px;
-    background-color: #81B73B;
+    background-color: #1FC63A;
     font-size: 22px;
     line-height: 1.3em;
     font-weight: 700;
@@ -6605,7 +6605,7 @@ blockquote {
     background-color: #f2eee9;
     -webkit-transition: color .3s;
     transition: color .3s;
-    color: #81B73B;
+    color: #1FC63A;
     font-size: 18px;
     line-height: 25.2px
 }
@@ -6627,7 +6627,7 @@ blockquote {
     line-height: 25.2px
 }
 .categories:hover {
-    color: #81B73B
+    color: #1FC63A
 }
 .categories.top-item.w--current {
     margin-bottom: 50px
@@ -6636,7 +6636,7 @@ blockquote {
     display: inline-block;
     -webkit-transition: opacity .3s;
     transition: opacity .3s;
-    color: #81B73B;
+    color: #1FC63A;
     font-size: 22px;
     line-height: 1.3em;
     font-weight: 700;
@@ -6912,7 +6912,7 @@ blockquote {
     background-color: transparent;
     -webkit-transition: .2s;
     transition: .2s;
-    color: #81B73B;
+    color: #1FC63A;
     font-weight: 700
 }
 .slider-button-copy {
@@ -6922,7 +6922,7 @@ blockquote {
     margin-left: auto;
     padding: 13px 32px 10px;
     border-radius: 50px;
-    background-color: #81B73B;
+    background-color: #1FC63A;
     -webkit-transition: .3s;
     transition: .3s;
     color: #fff;
@@ -7024,11 +7024,11 @@ blockquote {
     border-color: #e8ded2
 }
 .checkbox-copy.w--redirected-checked {
-    border-color: #81B73B;
-    background-color: #81B73B
+    border-color: #1FC63A;
+    background-color: #1FC63A
 }
 .checkbox-copy.w--redirected-focus {
-    box-shadow: 0 0 3px 1px #81B73B
+    box-shadow: 0 0 3px 1px #1FC63A
 }
 .top-banner-section-our-team {
     position: relative;
@@ -7127,13 +7127,13 @@ blockquote {
 }
 .central._404 {
     margin-bottom: 20px;
-    color: #81B73B;
+    color: #1FC63A;
     line-height: 1em;
     font-weight: 700
 }
 .central.thank-you {
     max-width: 600px;
-    color: #81B73B;
+    color: #1FC63A;
     font-size: 72px;
     font-weight: 700
 }
@@ -7241,7 +7241,7 @@ blockquote {
     width: 14px;
     height: 14px;
     border-color: transparent;
-    background-color: #81B73B;
+    background-color: #1FC63A;
     -webkit-transition: background-color .3s;
     transition: background-color .3s
 }
@@ -7319,7 +7319,7 @@ blockquote {
 }
 .learn-more-link-copy {
     display: inline-block;
-    color: #81B73B;
+    color: #1FC63A;
     font-size: 22px;
     line-height: 1.3em;
     font-weight: 700;
@@ -7381,7 +7381,7 @@ blockquote {
 .team-member-rich-text a {
     -webkit-transition: opacity .3s;
     transition: opacity .3s;
-    color: #81B73B
+    color: #1FC63A
 }
 .team-member-rich-text a:hover {
     opacity: .7
@@ -7427,7 +7427,7 @@ blockquote {
 }
 .privace-policy-rich-text ul {
     margin-bottom: 0;
-    color: #81B73B
+    color: #1FC63A
 }
 .privace-policy-rich-text p {
     margin-bottom: 0;
@@ -7445,7 +7445,7 @@ blockquote {
     display: inline-block;
     -webkit-transition: opacity .3s;
     transition: opacity .3s;
-    color: #81B73B;
+    color: #1FC63A;
     font-weight: 700;
     cursor: pointer
 }
@@ -7541,7 +7541,7 @@ blockquote {
     line-height: 25.2px
 }
 .blog-categories:hover {
-    color: #81B73B
+    color: #1FC63A
 }
 .green-divv {
     width: 100%;
@@ -7549,7 +7549,7 @@ blockquote {
     max-width: 928px;
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: #81B73B
+    background-color: #1FC63A
 }
 .blog-rich-text {
     font-size: 22px;
@@ -7577,7 +7577,7 @@ blockquote {
     font-weight: 700
 }
 .blog-rich-text a {
-    color: #81B73B;
+    color: #1FC63A;
     font-weight: 700
 }
 .blog-rich-text img {
@@ -7674,7 +7674,7 @@ blockquote {
 .arrow-release {
     display: block;
     max-width: 360px;
-    color: #81B73B;
+    color: #1FC63A;
     font-size: 18px;
     line-height: 1.4em;
     font-weight: 700;
@@ -7766,7 +7766,7 @@ blockquote {
     display: flex
 }
 .link-2 {
-    color: #81B73B
+    color: #1FC63A
 }
 .wrapper {
     display: -webkit-box;
@@ -9318,7 +9318,7 @@ blockquote {
 }
 @media screen and (min-width:1920px) {
     blockquote {
-        border-left: 5px #81B73B
+        border-left: 5px #1FC63A
     }
     .section.pale-yellow-relative {
         margin-bottom: -5px
@@ -9472,7 +9472,7 @@ blockquote {
         -webkit-transition: opacity .3s;
         transition: opacity .3s;
         font-family: 'Fa brands 400', sans-serif;
-        color: #81B73B;
+        color: #1FC63A;
         font-size: 26px;
         text-align: right
     }
@@ -9790,7 +9790,7 @@ blockquote {
         padding-top: 13px;
         padding-bottom: 20px;
         padding-left: 20px;
-        background-color: #81B73B
+        background-color: #1FC63A
     }
     .brand-logo.inner:hover {
         opacity: 1
@@ -9808,7 +9808,7 @@ blockquote {
         -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
         justify-content: flex-start;
-        background-color: #81B73B;
+        background-color: #1FC63A;
         font-family: Kievitoffcpro, sans-serif;
         color: #fff;
         font-size: 32px;
@@ -9912,7 +9912,7 @@ blockquote {
         padding-top: 15px;
         padding-bottom: 15px;
         border-style: none;
-        background-color: #81B73B
+        background-color: #1FC63A
     }
     .contact-button-wrapper {
         display: -webkit-box;
@@ -9921,7 +9921,7 @@ blockquote {
         display: flex;
         padding-bottom: 20px;
         padding-left: 15px;
-        background-color: #81B73B;
+        background-color: #1FC63A;
         text-transform: capitalize
     }
     .fa-icon {
@@ -10697,7 +10697,7 @@ blockquote {
         max-height: 782.796875px;
         padding-top: 0;
         padding-bottom: 11px;
-        background-color: #81B73B;
+        background-color: #1FC63A;
         color: #fff;
         text-align: left
     }
@@ -10737,19 +10737,19 @@ blockquote {
         color: rgba(65, 83, 93, .5)
     }
     .radio-button-label.past:hover {
-        color: #81B73B
+        color: #1FC63A
     }
     .radio-button-label.all {
         color: rgba(65, 83, 93, .5)
     }
     .radio-button-label.all:hover {
-        color: #81B73B
+        color: #1FC63A
     }
     .radio-button-label.current {
         color: rgba(65, 83, 93, .5)
     }
     .radio-button-label.current:hover {
-        color: #81B73B
+        color: #1FC63A
     }
     .pagination-2 {
         padding-left: 0;
@@ -14623,7 +14623,7 @@ blockquote {
     margin: 0 10px 0 0; 
     color: #000000; 
     text-decoration: none; 
-    background: #A0C86A;
+    background: #1FC63A;
     padding: 15px;
     width: 56px;
     text-align: center;
@@ -14647,7 +14647,7 @@ blockquote {
  {
      border-radius: 10px;
      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-     background-color: #81B73B;
+     background-color: #1FC63A;
  }
 
  hr.hr-1 {
