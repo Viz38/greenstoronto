@@ -32,6 +32,7 @@
             document.getElementById('kerala').style.display = "none";
         }
     </script>
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
@@ -68,7 +69,7 @@
     <img src="assets/img/pattern.svg" loading="lazy" alt="Decorative" class="image-133" />
 
     <div class="section wf-section" style="text-decoration: none;">
-        <p style="text-align: center;">We work from Monday till Friday from 10:00 am to 05:00 pm</p>
+        <p style="text-align: center;">We work from Monday till Friday from 10:00 am to 05:00 pm EST</p>
     </div>
     
     <div class="container horizontal w-container">
@@ -93,15 +94,14 @@
 
     <center>
         <div class="socialMediaLinks" style="align-items: center; padding-top:5%;">
-            <a href="tel:6478571370" class="fa-solid fa-phone"></a>
-            <!--<a href="https://www.facebook.com/greenstoronto" class="fab fa-facebook-f"></a>-->
+            <a href="tel:+16478571370" class="fa-solid fa-phone"></a>
+            <a href="https://www.facebook.com/greenstoronto" class="fab fa-facebook-f"></a>
             <a href="https://wa.me/+16478571370" class="fab fa-whatsapp"></a>
             <a href="https://www.instagram.com/greenstoronto/" class="fab fa-instagram"></a>
             <a href="mailto:greenstoronto@gmail.com" class="fa-solid fa-envelope"></a>
         </div>
     </center>
 
-    <!-- MAP
     <center class="Msection" id="canada">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.7460829311663!2d-79.63894468450427!3d43.59100497912344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3c23546aaaab%3A0x59edea88e80b0e4f!2sGreens%20Toronto!5e0!3m2!1sen!2sin!4v1670490538222!5m2!1sen!2sin" width="80%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <br>
@@ -113,13 +113,12 @@
         <br>
         <input class="w-button submit-button" type="button" name="answer" value="Canadian branch" onclick="showDivK()" />
     </center>
-    -->
 
     <div class="section contact wf-section">
         <img src="assets/img/rectangle_337.png" loading="lazy" alt="Decorative" class="image-130" />
         <div class="container w-container">
             <div class="form-block-2 w-form">
-                <form id="wf-form-Contact-Form-Submission" name="wf-form-Contact-Form-Submission" data-name="Contact Form Submission" redirect="/thank-you" data-redirect="/thank-you" method="get">
+                <form id="wf-form-Contact-Form-Submission" action="https://send.pageclip.co/CxAli6EJtNXZC2RkEaLLukFyIX69FXZw/ContactUs" class="pageclip-form" method="post">
                     <div class="contact-form-grid">
                         <h3 style="text-align: center;">Send us a message and we'll get back to you</h3>
                         <br>
@@ -139,9 +138,9 @@
                             <label id="contact-message" for="Anything-else" class="contact-heading">Message</label>
                             <textarea id="Anything-else" name="Anything-else" maxlength="5000" data-name="Anything else?" placeholder="" class="text-field high w-input"></textarea>
                         </div>
-                        <div class="centered-on-mobile">
-                            <input type="submit" data-wait="Please wait..." value="Submit" class="submit-button w-button" />
-                        </div>
+                        <button type="submit" data-wait="Please wait..." class="pageclip-form__submit submit-button w-button centered-on-mobile">
+                            <span>Submit</span>
+                        </button>
                     </div>
                 </form>
                 <div class="success-message w-form-done">
@@ -166,6 +165,11 @@
                 Mississauga, ON L5B 3C3, Canada
               </p>
               <div class="social-medias flex flex-g-1">
+                <a href="https://www.facebook.com/greenstoronto" class="social-media flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16"> 
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/> 
+                  </svg>               
+                </a>
                 <a href="https://www.instagram.com/greenstoronto/" class="social-media flex">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
                     <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
@@ -203,6 +207,7 @@
                 <ul>
                   <li><a href="./services.html">Insurance</a></li>
                   <li><a href="./services.html">Mortgage</a></li>
+                  <li><a href="./services.html">Immigration</a></li>
                 </ul>
               </nav>
             </div>
@@ -236,10 +241,10 @@
           <center>
             <p style="text-align: center;">Follow Us</p>
             <div class="social-medias flex">
-                <a href="https://www.instagram.com/greenstoronto/" class="social-media flex">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                  </svg>
+                <a href="https://www.facebook.com/greenstoronto" class="social-media flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16"> 
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/> 
+                  </svg>               
                 </a>
                 <a href="tel:6478571370" class="social-media flex">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-outbound" viewBox="0 0 16 16"> 
@@ -271,6 +276,7 @@
     <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
     <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='//cdn.jsdelivr.net/foundation/5.3.1/js/foundation/foundation.js'></script><script  src="./script.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>
